@@ -1,0 +1,136 @@
+/* Reset */
+body,
+p,
+h1,
+h2,
+nav,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estrutura */
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+}
+
+.main-header {
+  flex-direction: row;
+}
+
+.menu {
+  padding: 15px 10px;
+  background-color: #0e0e0e;
+}
+
+.main-list {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  justify-content: flex-start;
+}
+
+.list-item {
+  list-style: none;
+}
+
+.list-link {
+  color: #fff;
+  font-style: normal;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.list-link:hover {
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.list-link.-home {
+  font-weight: bold;
+}
+
+.list-link.-receita {
+  font-weight: bold;
+}
+
+.list-link.-cadastro {
+  font-weight: bold;
+}
+
+.main {
+  display: flex;
+  min-height: 90vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9f9f9;
+}
+
+.main-section {
+  margin: 50px;
+}
+
+/* Títulos e texto */
+
+.main-title {
+  font-size: 34px;
+  padding: 30px 10px;
+  display: flex;
+}
+
+.second-title {
+  padding: 10px;
+}
+
+.main-text {
+  font-size: 20px;
+  padding: 5px;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+/* Home */
+
+.topo {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+/* Footer */
+
+.main-footer {
+  padding: 5px 0;
+  background-color: #0e0e0e;
+  color: #fff;
+  position: bottom;
+}
+
+.main-text.-footer {
+  font-size: 15px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .main-title {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .topo {
+    display: inline;
+  }
+  .logo {
+    margin-left: 40%;
+  }
+}

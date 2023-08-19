@@ -1,0 +1,49 @@
+/* Receitas */
+
+.main-text.-receita {
+  font-size: 16px;
+  text-align: left;
+}
+
+.main-section.-receitas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.main-receitas-card {
+  background-color: #4a6881;
+  width: 300px;
+  height: 550px;
+  margin: 10px;
+  color: #fff;
+  padding: 10px;
+}
+
+.ingredientes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lista-receita-item {
+  margin-left: 30px;
+  padding: 10px;
+}
+
+.linha {
+  display: block;
+}
+
+.foto-receita {
+  width: 300px;
+  height: 150px;
+  padding-bottom: 8px;
+}
+
+@media screen and (max-width: 900px) {
+  .main-section.-receitas {
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+  }
+}
