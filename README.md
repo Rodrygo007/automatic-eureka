@@ -1,6 +1,5 @@
 # automatic-eureka
 Meu primeiro site cringe
-![Capa do projeto com logo da Estácio](./.github/capa.svg)
 
 <div align="center">
 
